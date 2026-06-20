@@ -1,0 +1,77 @@
+{
+  "version": 3,
+  "skills": {
+    "debug-mantra": {
+      "source": "thananon/9arm-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/thananon/9arm-skills.git",
+      "skillPath": "skills/engineering/debug-mantra/SKILL.md",
+      "skillFolderHash": "7280478f0f0086d25c59d5241429373f314e0299",
+      "pluginName": "9arm-skills",
+      "installedAt": "2026-06-19T07:35:32.429Z",
+      "updatedAt": "2026-06-19T07:42:37.152Z"
+    },
+    "management-talk": {
+      "source": "thananon/9arm-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/thananon/9arm-skills.git",
+      "skillPath": "skills/productivity/management-talk/SKILL.md",
+      "skillFolderHash": "d3fc8d6762168c4fadbb61ae4709772ca3d009b7",
+      "pluginName": "9arm-skills",
+      "installedAt": "2026-06-19T07:35:32.436Z",
+      "updatedAt": "2026-06-19T07:42:37.154Z"
+    },
+    "post-mortem": {
+      "source": "thananon/9arm-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/thananon/9arm-skills.git",
+      "skillPath": "skills/engineering/post-mortem/SKILL.md",
+      "skillFolderHash": "023e41ad16554b65e1ad0f10b7b3b522f1fa7e69",
+      "pluginName": "9arm-skills",
+      "installedAt": "2026-06-19T07:35:32.437Z",
+      "updatedAt": "2026-06-19T07:42:37.160Z"
+    },
+    "qwen-agent": {
+      "source": "thananon/9arm-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/thananon/9arm-skills.git",
+      "skillPath": "skills/engineering/qwen-agent/SKILL.md",
+      "skillFolderHash": "4c29909120458a8aa0b1ba0582381c13b1c05d82",
+      "pluginName": "9arm-skills",
+      "installedAt": "2026-06-19T07:35:32.437Z",
+      "updatedAt": "2026-06-19T07:42:37.161Z"
+    },
+    "qwenchance": {
+      "source": "thananon/9arm-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/thananon/9arm-skills.git",
+      "skillPath": "skills/productivity/qwenchance/SKILL.md",
+      "skillFolderHash": "4f83db5af3e771218bd4672e8b57f1a608e99b1a",
+      "pluginName": "9arm-skills",
+      "installedAt": "2026-06-19T07:35:32.437Z",
+      "updatedAt": "2026-06-19T07:42:37.162Z"
+    },
+    "scrutinize": {
+      "source": "thananon/9arm-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/thananon/9arm-skills.git",
+      "skillPath": "skills/engineering/scrutinize/SKILL.md",
+      "skillFolderHash": "8748e27f1af81abcef6e57745fec3b36e64f809d",
+      "pluginName": "9arm-skills",
+      "installedAt": "2026-06-19T07:35:32.438Z",
+      "updatedAt": "2026-06-19T07:42:37.163Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-06-19T07:35:34.980Z",
+      "updatedAt": "2026-06-19T07:35:34.980Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  }
+}

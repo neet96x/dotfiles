@@ -1,0 +1,35 @@
+# Sensitive files
+*.log
+*.secret
+*.key
+*.pem
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Project-specific (don't sync to GitHub)
+boyser-ai/
+
+# Claude Code session data
+.claude/sessions/
+.claude/cache/
+
+# Local overrides
+*.local
+settings.local.json

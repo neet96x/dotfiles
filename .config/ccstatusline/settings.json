@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "lines": [
+    [
+      {
+        "id": "1",
+        "type": "model",
+        "color": "cyan",
+        "rawValue": true
+      },
+      {
+        "id": "2",
+        "type": "separator"
+      },
+      {
+        "id": "3",
+        "type": "context-length",
+        "color": "brightBlack",
+        "rawValue": false
+      },
+      {
+        "id": "4",
+        "type": "separator"
+      },
+      {
+        "id": "5",
+        "type": "git-branch",
+        "color": "magenta",
+        "rawValue": false
+      },
+      {
+        "id": "6",
+        "type": "separator",
+        "character": " "
+      },
+      {
+        "id": "7",
+        "type": "git-changes",
+        "color": "yellow"
+      }
+    ],
+    [
+      {
+        "id": "b418c529-8d2b-4c20-9003-4b3c72f412de",
+        "type": "session-usage"
+      },
+      {
+        "id": "0d606e30-26cb-4d53-a271-f8e2165798c0",
+        "type": "separator",
+        "character": ","
+      },
+      {
+        "id": "844b9b10-77c2-4224-97c1-2fbb56f85c50",
+        "type": "session-cost",
+        "rawValue": true
+      },
+      {
+        "id": "ab45edb6-f8e5-4bc9-a3cb-195c71ec5907",
+        "type": "separator",
+        "character": ","
+      },
+      {
+        "id": "921e99d2-c2b3-4032-a050-04e8841dc4f2",
+        "type": "tokens-input",
+        "rawValue": true
+      },
+      {
+        "id": "18d11774-9a71-4c19-b736-e4ecbd7928cc",
+        "type": "flex-separator"
+      },
+      {
+        "id": "0bd6ffc5-7f12-496d-80b1-fad5fdf2230b",
+        "type": "output-speed",
+        "rawValue": false
+      }
+    ],
+    []
+  ],
+  "flexMode": "full-minus-40",
+  "compactThreshold": 60,
+  "colorLevel": 2,
+  "inheritSeparatorColors": false,
+  "globalBold": false,
+  "gitCacheTtlSeconds": 5,
+  "minimalistMode": false,
+  "powerline": {
+    "enabled": false,
+    "separators": [
+      ""
+    ],
+    "separatorInvertBackground": [
+      false
+    ],
+    "startCaps": [],
+    "endCaps": [],
+    "autoAlign": false,
+    "continueThemeAcrossLines": false
+  },
+  "installation": {
+    "method": "auto-update",
+    "packageManager": "npm"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "template": "\u256d\u2500",
+          "type": "text",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "display_mode": "always"
+          },
+          "template": "\u24d4 {{ .Name }} ",
+          "foreground": "#F5F5F5",
+          "type": "venv",
+          "style": "plain"
+        },
+        {
+          "template": " 💁 {{ .UserName }} ",
+          "foreground": "#C48A3A",
+          "type": "session",
+          "style": "plain"
+        },
+        {
+          "template": "at",
+          "foreground": "#ffffff",
+          "type": "session",
+          "style": "plain"
+        },
+        {
+          "template": " 💻 {{ .HostName }} ",
+          "foreground": "#22d7ff",
+          "type": "session",
+          "style": "plain"
+        },
+        {
+          "template": "in",
+          "foreground": "#ffffff",
+          "type": "session",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "style": "full"
+          },
+          "template": " 📁 {{ .Path }} ",
+          "foreground": "#9D4EDD",
+          "type": "path",
+          "style": "plain"
+        },
+        {
+          "properties": {
+            "fetch_status": true,
+            "fetch_upstream_icon": false
+          },
+          "template": " ({{ url .UpstreamIcon .UpstreamURL }} {{ url .HEAD .UpstreamURL }}){{ if gt .Ahead 0 }}<#50fa7b> +{{ .Ahead }}</>{{ end }}{{ if gt .Behind 0 }}<#ff5555> -{{ .Behind }}</>{{ end }}{{ if .Working.Changed }}<p:color15>  {{ .Working.String }}</>{{ end }}{{ if .Staging.Changed }}<p:color15>  {{ .Staging.String }}</>{{ end }}",
+          "foreground": "#B80101",
+          "type": "git",
+          "style": "plain"
+        }
+      ],
+      "newline": true
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "template": "\u2570\u2500 ❯❯ ",
+          "type": "text",
+          "style": "plain"
+        }
+      ],
+      "newline": true
+    }
+  ],
+  "version": 3
+}
