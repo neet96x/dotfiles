@@ -33,3 +33,16 @@ boyser-ai/
 # Local overrides
 *.local
 settings.local.json
+
+# Claude Code - sensitive & ephemeral
+.claude/settings.json
+.claude/settings.json.bak
+.claude/.claude.json
+.claude/history.jsonl
+.claude/projects/
+.claude/backups/
+.claude/file-history/
+.claude/shell-snapshots/
+.claude/.last-cleanup
+.claude/.ponytail-active
+.claude/plugins/
